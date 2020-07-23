@@ -1,16 +1,17 @@
-# Requirements
+# AugRetain_ProNet
+##Requirements
 
 Python 3.7
 
 Pytorch 1.3
 
-# Data
+## Data
 
 For Omniglot experiments, I directly attach omniglot 28x28 resized images in the git, which is created based on [omniglot](https://github.com/brendenlake/omniglot) and [maml](https://github.com/cbfinn/maml).
 
 For mini-Imagenet experiments, please download [mini-Imagenet](https://drive.google.com/open?id=0B3Irx3uQNoBMQ1FlNXJsZUdYWEE) and put it in ./datas/mini-Imagenet and run proc_image.py to preprocess generate train/val/test datasets. (This process method is based on [maml](https://github.com/cbfinn/maml)).
 
-# Train
+## Train
 
 For now, I completed the omniglot 5-way 1-shot and 5-way 5-shot part, you can train your own model by changing the model save part.
 
